@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task7</title>
+</head>
+<body>
+
+
+
+
+
+
+
+    <script>
+        
+  let cols = 8;
+  let rows = 8;
+  let x= '';
+  for(let i = 0; i<=cols; i++){
+    for (let j = 0; j<=rows; j++) {
+      if ((i + j) % 2 === 0) x += '#';
+      else x += ' ';
+    }
+    x += '\n';
+  }
+  console.log(x);
+
+    </script>
+    
+</body>
+</html>

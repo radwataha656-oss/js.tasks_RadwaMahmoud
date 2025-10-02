@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task10</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+        let ask = prompt("choose tri or squ")
+        let rows = prompt("number of rows:")
+        let cols = 8;
+  
+  
+  if(ask === "tri"){
+    let x="#";
+        for(let i=1; i<=rows; i++){
+            console.log(x);
+            x += "#";
+           
+        }
+    }else if(ask === "squ"){
+       
+  let y= '#';
+  for(let i = 1; i<=rows; i++){
+    for (let j = 1; j<=rows; j++) {
+      if ((i + j) % 2 === 0) {
+      y += '#';
+      }
+    }
+    y += '\n';
+    }console.log(y)}
+
+    </script>
+</body>
+</html>
